@@ -25,9 +25,7 @@ const data = {
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("dcrgll"),
   web: chalk.cyan("https://dcrgll.dev"),
   npx:
-    chalk.red("npx") +
-    " " +
-    chalk.white("@dcrgll/card  (via GitHub Package Registry)"),
+    chalk.red("npx") + " " + chalk.white("dcrgll (via NPM Package Registry)"),
   labelWork: chalk.white.bold("       Work:"),
   labelOpenSource: chalk.white.bold("Open Source:"),
   labelTwitter: chalk.white.bold("    Twitter:"),
