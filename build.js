@@ -17,19 +17,15 @@ const options = {
 const data = {
   name: chalk.white("               Dan Cargill"),
   handle: chalk.white("@dcrgll"),
-  work: chalk.white("Javascript Developer & Creative"),
-  opensource: chalk.white("Node.js Community Committee ") + chalk.green("⬢"),
+  work: chalk.white("Javascript Developer & Creative") + " " + chalk.green("⬢"),
   twitter: chalk.gray("https://twitter.com/") + chalk.cyan("dcrgll"),
   npm: chalk.gray("https://npmjs.com/") + chalk.red("~dcrgll"),
   github: chalk.gray("https://github.com/") + chalk.green("dcrgll"),
   linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("dcrgll"),
   web: chalk.cyan("https://dcrgll.dev"),
   npx:
-    chalk.red("npx") +
-    " " +
-    chalk.white("@dcrgll/card  (via GitHub Package Registry)"),
+    chalk.red("npx") + " " + chalk.white("dcrgll  (via NPM Package Registry)"),
   labelWork: chalk.white.bold("       Work:"),
-  labelOpenSource: chalk.white.bold("Open Source:"),
   labelTwitter: chalk.white.bold("    Twitter:"),
   labelnpm: chalk.white.bold("        npm:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
@@ -42,7 +38,6 @@ const data = {
 const newline = "\n";
 const heading = `${data.name} / ${data.handle}`;
 const working = `${data.labelWork}  ${data.work}`;
-const opensourcing = `${data.labelOpenSource}  ${data.opensource}`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
 const npming = `${data.labelnpm}  ${data.npm}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
@@ -56,10 +51,8 @@ const output =
   newline +
   newline + // Add one whole blank line
   working +
-  newline + // data.labelWork + data.work
-  opensourcing +
-  newline +
   newline + // data.labelOpenSource + data.opensource
+  newline +
   twittering +
   newline + // data.labelTwitter + data.twitter
   npming +
