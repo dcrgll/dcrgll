@@ -1,0 +1,47 @@
+{
+  "name": "@dcrgll/card",
+  "version": "1.0.0",
+  "description": "A personal card for Dan Cargill (@dcrgll)",
+  "main": "/bin/card.js",
+  "bin": {
+    "dcrgll": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcrgll/dcrgll.git"
+  },
+  "homepage": "https://cargill.dev",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Dan Cargill <dan@cargill.dev> (https://www.cargill.dev)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "standard": "^12.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/dcrgll/dcrgll/issues"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://npm.registry.github.com/"
+  }
+}
