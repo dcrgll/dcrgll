@@ -1,5 +1,5 @@
 {
-  "name": "@dcrgll/card",
+  "name": "dcrgll",
   "version": "1.0.0",
   "description": "A personal card for Dan Cargill (@dcrgll)",
   "main": "/bin/card.js",
@@ -42,6 +42,6 @@
   },
   "dependencies": {},
   "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
+    "registry": "https://registry.npmjs.org/"
   }
 }
