@@ -1,6 +1,6 @@
 ## Hey, I'm [Dan](https://cargill.dev)!
 
-🛠 I'm currently playing the internet at [ PION ](https://www.wearepion.com/) as a Senior Javascript Engineer. </br>
+🛠 I'm currently playing with mobile apps at [cleo](meetcleo.com). </br>
 🌱 I also build tools for creatives at [payday](https://payday.so).
 
 #### I like to build with:
