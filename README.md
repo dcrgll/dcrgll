@@ -42,9 +42,6 @@
   <a href="mailto:dan@cargill.dev">
     <img align="left" width="26px" src="https://cdn.simpleicons.org/gmail" alt='Email' />
   </a>
-  <a href="https://www.linkedin.com/in/dancargill/">
-    <img align="left" width="24px" src="https://cdn.simpleicons.org/linkedin" alt='LinkedIn'  />
-  </a>
   <a href="https://instagram.com/dncrgll">
     <img align="left" width="26px" src="https://cdn.simpleicons.org/instagram" alt='Instagram' />
   </a>
