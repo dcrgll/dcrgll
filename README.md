@@ -15,7 +15,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-No WakaTime data yet
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
