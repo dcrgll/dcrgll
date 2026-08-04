@@ -4,7 +4,7 @@
 <pre>
   dan cargill
   <br/>
-  ▣ product engineer @ cleo ai
+  ▣ senior product engineer @ cleo ai
   ◌ ai enabled, agentic conductor
   ⌨ typescript • react • react native • next.js 
   ◈ monitoring the situation
