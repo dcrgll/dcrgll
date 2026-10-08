@@ -15,7 +15,9 @@
 <!--START_SECTION:waka-->
 
 ```txt
-shell script   0 secs                █████████████████████████   100.00 %
+Other          9 mins                ███████████████████████▓░   94.38 %
+shell script   0 secs                █▒░░░░░░░░░░░░░░░░░░░░░░░   04.68 %
+Bash           0 secs                ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.94 %
 ```
 
 <!--END_SECTION:waka-->
